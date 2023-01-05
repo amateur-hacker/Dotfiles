@@ -1,2 +1,1 @@
-# Dotfiles
-My personal Dotfiles to backing up my linux.
+A list of custom configuration of my favourite sweet of applications.
