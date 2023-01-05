@@ -1,0 +1,24 @@
+2023/01/05-02:02:43.743 577f9 Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/05-02:02:43.743 577f9 Recovering log #42
+2023/01/05-02:02:45.410 577f9 Reusing old log /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000042.log 
+2023/01/05-02:02:53.398 57d8b Level-0 table #47: started
+2023/01/05-02:02:53.573 57d8b Level-0 table #47: 1110835 bytes OK
+2023/01/05-02:02:53.694 57d8b Delete type=0 #42
+2023/01/05-02:02:54.701 57da0 Compacting 1@1 + 1@2 files
+2023/01/05-02:02:54.808 57da0 Generated table #48@1: 534 keys, 71263 bytes
+2023/01/05-02:02:54.808 57da0 Compacted 1@1 + 1@2 files => 71263 bytes
+2023/01/05-02:02:55.004 57da0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/05-02:02:55.004 57da0 Delete type=2 #44
+2023/01/05-02:02:55.004 57da0 Delete type=2 #47
+2023/01/05-02:13:27.555 5867e Level-0 table #50: started
+2023/01/05-02:13:27.624 5867e Level-0 table #50: 346130 bytes OK
+2023/01/05-02:13:27.756 5867e Delete type=0 #46
+2023/01/05-02:13:27.757 5867e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/05-02:13:27.757 5867e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0b\x01\x1f\x03\x00\xb0\xa1\xa3\x09\xcdxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 69706 : 0
+2023/01/05-02:13:27.757 5867e Compacting 1@1 + 1@2 files
+2023/01/05-02:13:27.816 5867e Generated table #51@1: 399 keys, 47333 bytes
+2023/01/05-02:13:27.816 5867e Compacted 1@1 + 1@2 files => 47333 bytes
+2023/01/05-02:13:27.914 5867e compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/05-02:13:27.915 5867e Delete type=2 #48
+2023/01/05-02:13:27.915 5867e Delete type=2 #50
+2023/01/05-02:13:27.915 5867e Manual compaction at level-1 from '\x00\x0b\x01\x1f\x03\x00\xb0\xa1\xa3\x09\xcdxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 69706 : 0 .. (end); will stop at (end)

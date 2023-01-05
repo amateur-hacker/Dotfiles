@@ -1,0 +1,17 @@
+2023-01-02 22:21:55.849 [info] Extension host with pid 42995 started
+2023-01-02 22:21:55.849 [info] Skipping acquiring lock for /home/amateur_hacker/.config/Code/User/workspaceStorage/4b95c4efdd35bf174aa3e1a3fed0e972.
+2023-01-02 22:21:55.900 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-02 22:21:56.080 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.225 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.426 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.429 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.441 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.447 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.587 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-02 22:21:56.942 [info] Eager extensions activated
+2023-01-02 22:21:56.950 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-02 22:22:00.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-02 22:22:01.940 [error] Error: ENOENT: no such file or directory, open '/home/amateur_hacker/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2023-01-02 22:22:01.941 [info] Extension host terminating: parent process 42938 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+2023-01-02 22:22:01.951 [error] Error: ENOENT: no such file or directory, open '/home/amateur_hacker/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2023-01-02 22:22:01.951 [info] Extension host with pid 42995 exiting with code 0

@@ -1,0 +1,14 @@
+2022-12-29 23:57:10.551 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2022-12-29 23:57:10.551 [info] Auto Sync is enabled.
+2022-12-29 23:57:10.551 [info] Auto Sync: Suspended until auth token is available.
+2022-12-29 23:57:15.080 [info] Auto Sync: Triggered by Interval
+2022-12-29 23:57:15.082 [info] Sync started.
+2022-12-29 23:57:16.552 [info] Profiles: No changes found during synchronizing profiles.
+2022-12-29 23:57:16.610 [info] Settings: No changes found during synchronizing settings.
+2022-12-29 23:57:16.633 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-12-29 23:57:16.645 [info] Snippets: No changes found during synchronizing snippets.
+2022-12-29 23:57:16.652 [info] Tasks: No changes found during synchronizing tasks.
+2022-12-29 23:57:17.569 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2,workbench.statusbar.hidden,workbench.panel.pinnedPanels,cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount.
+2022-12-29 23:57:17.626 [info] GlobalState: Updated last synchronized ui state
+2022-12-29 23:57:17.782 [info] Extensions: No changes found during synchronizing extensions.
+2022-12-29 23:57:17.789 [info] Sync done. Took 2711ms

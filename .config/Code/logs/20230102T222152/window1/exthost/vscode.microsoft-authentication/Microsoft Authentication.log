@@ -1,0 +1,3 @@
+2023-01-02 22:21:56.676 [info] Reading sessions from secret storage...
+2023-01-02 22:21:56.753 [info] Got 1 stored sessions
+2023-01-02 22:21:56.754 [info] Refreshing token for scopes: email offline_access openid profile

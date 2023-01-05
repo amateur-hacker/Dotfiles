@@ -1,0 +1,27 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 17,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "screencastMode.verticalOffset": 0,
+  "workbench.startupEditor": "none",
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Ayu Dark",
+  "window.menuBarVisibility": "toggle"
+}

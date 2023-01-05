@@ -1,0 +1,12 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+> python -c "import sys;print(sys.executable)"
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Jedi language server for default.
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment

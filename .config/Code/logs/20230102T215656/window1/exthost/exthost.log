@@ -1,0 +1,13 @@
+2023-01-02 21:57:03.504 [info] Extension host with pid 25905 started
+2023-01-02 21:57:03.504 [info] Skipping acquiring lock for /home/amateur_hacker/.config/Code/User/workspaceStorage/8a3f6f234f67ae3a533b05b4653968e2.
+2023-01-02 21:57:03.568 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-02 21:57:03.766 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-02 21:57:03.791 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-01-02 21:57:04.339 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-01-02 21:57:04.439 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-01-02 21:57:04.648 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-01-02 21:57:04.806 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-02 21:57:05.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-02 21:57:05.834 [info] Extension host terminating: renderer closed the MessagePort
+2023-01-02 21:57:05.838 [error] Error: ENOENT: no such file or directory, open '/home/amateur_hacker/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2023-01-02 21:57:05.838 [info] Extension host with pid 25905 exiting with code 0

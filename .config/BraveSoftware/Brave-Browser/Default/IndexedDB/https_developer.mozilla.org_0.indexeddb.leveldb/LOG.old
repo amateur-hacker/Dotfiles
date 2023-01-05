@@ -1,0 +1,6 @@
+2022/12/29-19:20:59.776 2a7ad Creating DB /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb since it was missing.
+2022/12/29-19:20:59.923 2a7ad Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/29-19:21:58.271 2a396 Level-0 table #5: started
+2022/12/29-19:21:58.320 2a396 Level-0 table #5: 9191 bytes OK
+2022/12/29-19:21:58.419 2a396 Delete type=0 #3
+2022/12/29-19:21:58.419 2a396 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

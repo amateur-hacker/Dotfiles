@@ -1,0 +1,45 @@
+2023/01/06-03:20:39.175 3 Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/01/06-03:20:39.177 3 Recovering log #919
+2023/01/06-03:20:39.177 3 Level-0 table #922: started
+2023/01/06-03:20:39.713 3 Level-0 table #922: 21481 bytes OK
+2023/01/06-03:20:39.898 3 Delete type=0 #919
+2023/01/06-03:27:44.081 a Level-0 table #925: started
+2023/01/06-03:27:44.227 a Level-0 table #925: 23172 bytes OK
+2023/01/06-03:27:44.538 a Delete type=0 #923
+2023/01/06-03:37:53.273 14 Level-0 table #927: started
+2023/01/06-03:37:53.427 14 Level-0 table #927: 25404 bytes OK
+2023/01/06-03:37:53.526 14 Delete type=0 #924
+2023/01/06-03:37:53.527 14 Compacting 4@0 + 2@1 files
+2023/01/06-03:37:53.687 14 Generated table #928@0: 909 keys, 2145201 bytes
+2023/01/06-03:37:53.770 14 Generated table #929@0: 1547 keys, 537601 bytes
+2023/01/06-03:37:53.770 14 Compacted 4@0 + 2@1 files => 2682802 bytes
+2023/01/06-03:37:53.896 14 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/01/06-03:37:53.898 14 Delete type=2 #916
+2023/01/06-03:37:53.898 14 Delete type=2 #917
+2023/01/06-03:37:53.898 14 Delete type=2 #920
+2023/01/06-03:37:53.898 14 Delete type=2 #922
+2023/01/06-03:37:53.898 14 Delete type=2 #925
+2023/01/06-03:37:53.898 14 Delete type=2 #927
+2023/01/06-03:42:44.081 a Level-0 table #931: started
+2023/01/06-03:42:44.201 a Level-0 table #931: 21811 bytes OK
+2023/01/06-03:42:44.300 a Delete type=0 #926
+2023/01/06-03:57:52.626 1c Level-0 table #933: started
+2023/01/06-03:57:52.713 1c Level-0 table #933: 32795 bytes OK
+2023/01/06-03:57:52.845 1c Delete type=0 #930
+2023/01/06-04:08:34.529 1f Level-0 table #935: started
+2023/01/06-04:08:34.826 1f Level-0 table #935: 25102 bytes OK
+2023/01/06-04:08:35.325 1f Delete type=0 #932
+2023/01/06-04:19:47.833 25 Level-0 table #937: started
+2023/01/06-04:19:48.603 25 Level-0 table #937: 24724 bytes OK
+2023/01/06-04:19:48.798 25 Delete type=0 #934
+2023/01/06-04:19:48.799 25 Compacting 4@0 + 2@1 files
+2023/01/06-04:19:49.362 25 Generated table #938@0: 911 keys, 2144194 bytes
+2023/01/06-04:19:49.455 25 Generated table #939@0: 1564 keys, 542092 bytes
+2023/01/06-04:19:49.455 25 Compacted 4@0 + 2@1 files => 2686286 bytes
+2023/01/06-04:19:49.554 25 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/01/06-04:19:49.556 25 Delete type=2 #928
+2023/01/06-04:19:49.556 25 Delete type=2 #929
+2023/01/06-04:19:49.556 25 Delete type=2 #931
+2023/01/06-04:19:49.556 25 Delete type=2 #933
+2023/01/06-04:19:49.556 25 Delete type=2 #935
+2023/01/06-04:19:49.556 25 Delete type=2 #937

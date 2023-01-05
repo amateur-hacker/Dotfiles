@@ -1,0 +1,179 @@
+{
+   "checksum": "5f8354f130066860201701e58b85a94d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13316623522702987",
+            "date_last_used": "13316626330829572",
+            "guid": "bd4d93d6-9990-44c7-a8fb-014f6c9f65d9",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Run Particular Commands Without Sudo Password In Linux - OSTechNix",
+            "type": "url",
+            "url": "https://ostechnix.com/run-particular-commands-without-sudo-password-linux/#:~:text=Alternatively%2C%20you%20can%20add%20'PASSWD,following%20line%20as%20shown%20below.&text=In%20this%20case%2C%20the%20user,without%20entering%20the%20sudo%20password."
+         }, {
+            "date_added": "13316787582373408",
+            "date_last_used": "0",
+            "guid": "6121c1b9-1cbd-4739-82fa-31055692e50b",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "command line - How to listen radio from terminal? - Ask Ubuntu",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/193737/how-to-listen-radio-from-terminal"
+         }, {
+            "date_added": "13316795101775295",
+            "date_last_used": "0",
+            "guid": "5ecb277e-024d-4f5e-9b05-92ed3a7934d3",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Wttr.in | The Right Way to Check Curl The Weather Written in Python",
+            "type": "url",
+            "url": "https://morioh.com/p/07f9eff21a03"
+         }, {
+            "date_added": "13316795802675278",
+            "date_last_used": "0",
+            "guid": "d43326ef-03a9-4d15-bbe0-a2d866a39b18",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "chubin/wttr.in: The right way to check the weather",
+            "type": "url",
+            "url": "https://github.com/chubin/wttr.in"
+         }, {
+            "date_added": "13316796273615782",
+            "date_last_used": "0",
+            "guid": "3eb996cf-abc8-4f32-8cd1-706a40e1ddd5",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GPS coordinates, latitude and longitude with interactive Maps",
+            "type": "url",
+            "url": "https://www.gps-coordinates.net/"
+         }, {
+            "date_added": "13316877347288885",
+            "date_last_used": "13316894989495334",
+            "guid": "46794015-ad4d-4267-a9ba-fe595ad17ac6",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Cepstral - Download Personal Text to Speech Software for Free",
+            "type": "url",
+            "url": "https://www.cepstral.com/en/personal/download/?os=linux&refpage=linux"
+         }, {
+            "date_added": "13316898742480662",
+            "date_last_used": "0",
+            "guid": "68f7e5b3-2da6-47d0-a95e-d42ba623abdc",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "python - gTTS direct output - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/51164040/gtts-direct-output"
+         }, {
+            "date_added": "13316899786317774",
+            "date_last_used": "0",
+            "guid": "b1750083-f564-4f89-b498-7f68fe9caaa3",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Python: How to play mp3 from gTTS as bytes without saving on disk — furas.pl",
+            "type": "url",
+            "url": "https://blog.furas.pl/python-how-to-play-mp3-from-gtts-as-bytes-without-saving-on-disk-gb.html"
+         }, {
+            "date_added": "13316981436533434",
+            "date_last_used": "0",
+            "guid": "606f8109-74a2-4b99-967b-633b5389dd0b",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "command line - How do I make mpv pause streaming audio files when disconnected? - Ask Ubuntu",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/1433327/how-do-i-make-mpv-pause-streaming-audio-files-when-disconnected"
+         }, {
+            "date_added": "13317015837180609",
+            "date_last_used": "0",
+            "guid": "8ac9741b-cf51-4fe8-9755-e41acf505eec",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "bash nested case syntax and ;; terminators - Unix & Linux Stack Exchange",
+            "type": "url",
+            "url": "https://unix.stackexchange.com/questions/15216/bash-nested-case-syntax-and-terminators"
+         }, {
+            "date_added": "13317020817611741",
+            "date_last_used": "0",
+            "guid": "3fa68d46-bf50-4d07-b86d-896c0f3970fa",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Run a Script on Startup in Linux | Baeldung on Linux",
+            "type": "url",
+            "url": "https://www.baeldung.com/linux/run-script-on-startup"
+         }, {
+            "date_added": "13317078635722831",
+            "date_last_used": "0",
+            "guid": "ac7ca155-586f-488f-9204-da79290b79a7",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "adi1090x/rofi: A huge collection of Rofi based custom Applets, Launchers & Powermenus.",
+            "type": "url",
+            "url": "https://github.com/adi1090x/rofi"
+         }, {
+            "date_added": "13317088039223705",
+            "date_last_used": "0",
+            "guid": "6a5f17b4-ebcf-4d73-8270-b43a036efbce",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ytfzf - search, watch or download YT video from terminal - Mabox Linux notes",
+            "type": "url",
+            "url": "https://blog.maboxlinux.org/ytfzf-search-watch-or-download-yt-from-terminal/"
+         } ],
+         "date_added": "13316620527816577",
+         "date_last_used": "0",
+         "date_modified": "13317088039223705",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13316620527816582",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13316620527816587",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

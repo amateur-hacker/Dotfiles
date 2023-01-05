@@ -1,0 +1,12 @@
+[Extraction]
+openDestinationFolderAfterExtraction=true
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAA6QAAAEBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP=eDP
+eDP Height 1920x1080 eDP=326
+eDP Width 1920x1080 eDP=932
+eDP XPosition 1920x1080 eDP=970
+eDP YPosition 1920x1080 eDP=42
+splitterSizes=619,309

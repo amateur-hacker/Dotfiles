@@ -1,0 +1,15 @@
+2023/01/03-22:36:51.415 edcf Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-22:36:51.415 edcf Recovering log #4
+2023/01/03-22:36:51.428 edcf Reusing old log /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/01/04-00:55:59.912 2240e Level-0 table #8: started
+2023/01/04-00:56:00.002 2240e Level-0 table #8: 626174 bytes OK
+2023/01/04-00:56:00.101 2240e Delete type=0 #4
+2023/01/04-00:56:00.123 2240e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/04-00:56:00.123 2240e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x07\x01\x1f\x04\x02\x03\x00\x00\x00\x00\x00\xc0P@\x03\x00\xe0\x84\x9a\x89WxB\x00\x03\x00\x00\x00\x00\x00\x00B@' @ 3047 : 1
+2023/01/04-00:56:00.123 2240e Compacting 1@1 + 1@2 files
+2023/01/04-00:56:00.239 2240e Generated table #9@1: 316 keys, 12666 bytes
+2023/01/04-00:56:00.239 2240e Compacted 1@1 + 1@2 files => 12666 bytes
+2023/01/04-00:56:00.386 2240e compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/04-00:56:00.387 2240e Delete type=2 #5
+2023/01/04-00:56:00.387 2240e Delete type=2 #8
+2023/01/04-00:56:00.387 2240e Manual compaction at level-1 from '\x00\x07\x01\x1f\x04\x02\x03\x00\x00\x00\x00\x00\xc0P@\x03\x00\xe0\x84\x9a\x89WxB\x00\x03\x00\x00\x00\x00\x00\x00B@' @ 3047 : 1 .. (end); will stop at (end)

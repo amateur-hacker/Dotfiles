@@ -1,0 +1,7 @@
+2023/01/04-16:56:35.427 95cd Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-16:56:35.427 95cd Recovering log #4
+2023/01/04-16:56:35.427 95cd Reusing old log /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000004.log 
+2023/01/04-16:56:36.087 95b7 Level-0 table #8: started
+2023/01/04-16:56:36.197 95b7 Level-0 table #8: 1809 bytes OK
+2023/01/04-16:56:36.345 95b7 Delete type=0 #4
+2023/01/04-16:56:36.345 95b7 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

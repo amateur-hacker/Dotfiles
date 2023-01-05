@@ -1,0 +1,6 @@
+2023/01/01-05:45:54.452 3e59c Creating DB /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.deezer.com_0.indexeddb.leveldb since it was missing.
+2023/01/01-05:45:54.633 3e59c Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.deezer.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/01-05:46:01.574 3e690 Level-0 table #5: started
+2023/01/01-05:46:01.623 3e690 Level-0 table #5: 2024 bytes OK
+2023/01/01-05:46:01.843 3e690 Delete type=0 #3
+2023/01/01-05:46:01.844 3e690 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

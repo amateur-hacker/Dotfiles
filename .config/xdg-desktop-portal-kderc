@@ -1,0 +1,6 @@
+[FileDialogSize]
+eDP Height 1920x1080 eDP=589
+eDP Width 1920x1080 eDP=978
+
+[KFileDialog Settings]
+detailViewIconSize=16

@@ -1,0 +1,9 @@
+2023/01/04-03:26:59.156 3dff0 Reusing MANIFEST /home/amateur_hacker/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-03:26:59.157 3dff0 Recovering log #16
+2023/01/04-03:26:59.158 3dff0 Reusing old log /home/amateur_hacker/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000016.log 
+2023/01/04-03:27:00.719 3dff0 Compacting 1@1 + 1@2 files
+2023/01/04-03:27:00.785 3dff0 Generated table #19@1: 532 keys, 19585 bytes
+2023/01/04-03:27:00.785 3dff0 Compacted 1@1 + 1@2 files => 19585 bytes
+2023/01/04-03:27:00.982 3dff0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/04-03:27:00.983 3dff0 Delete type=2 #14
+2023/01/04-03:27:00.983 3dff0 Delete type=2 #17

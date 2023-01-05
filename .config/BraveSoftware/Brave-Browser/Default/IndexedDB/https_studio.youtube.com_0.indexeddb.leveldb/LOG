@@ -1,0 +1,6 @@
+2022/12/30-07:23:37.878 b6f2 Creating DB /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/12/30-07:23:38.026 b6f2 Reusing MANIFEST /home/amateur_hacker/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-07:23:48.336 b800 Level-0 table #5: started
+2022/12/30-07:23:48.385 b800 Level-0 table #5: 2544 bytes OK
+2022/12/30-07:23:48.506 b800 Delete type=0 #3
+2022/12/30-07:23:48.506 b800 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

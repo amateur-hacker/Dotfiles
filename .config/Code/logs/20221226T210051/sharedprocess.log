@@ -1,0 +1,218 @@
+2022-12-26 21:00:53.858 [info] Starting worker process with pid 8527 (type: fileWatcher, window: 1).
+2022-12-26 21:01:30.021 [info] Getting Manifest... formulahendry.code-runner
+2022-12-26 21:01:30.595 [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:30.915 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2022-12-26 21:01:30.921 [info] Getting Manifest... ms-vscode.cpptools-themes
+2022-12-26 21:01:30.926 [info] Getting Manifest... sdras.night-owl
+2022-12-26 21:01:30.927 [info] Getting Manifest... digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:30.930 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2022-12-26 21:01:30.933 [info] Getting Manifest... usernamehw.errorlens
+2022-12-26 21:01:30.940 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2022-12-26 21:01:30.942 [info] Getting Manifest... hex-ci.stylelint-plus
+2022-12-26 21:01:30.945 [info] Getting Manifest... ritwickdey.liveserver
+2022-12-26 21:01:30.947 [info] Getting Manifest... naumovs.color-highlight
+2022-12-26 21:01:30.949 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:30.951 [info] Getting Manifest... esbenp.prettier-vscode
+2022-12-26 21:01:30.953 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2022-12-26 21:01:30.956 [info] Getting Manifest... erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:30.958 [info] Getting Manifest... akamud.vscode-theme-onedark
+2022-12-26 21:01:30.960 [info] Getting Manifest... adpyke.codesnap
+2022-12-26 21:01:30.961 [info] Getting Manifest... formulahendry.auto-close-tag
+2022-12-26 21:01:30.963 [info] Getting Manifest... formulahendry.auto-rename-tag
+2022-12-26 21:01:30.965 [info] Getting Manifest... teabyii.ayu
+2022-12-26 21:01:30.971 [info] Getting Manifest... asvetliakov.vscode-neovim
+2022-12-26 21:01:30.971 [info] Getting Manifest... christian-kohler.path-intellisense
+2022-12-26 21:01:30.975 [info] Getting Manifest... vscodevim.vim
+2022-12-26 21:01:30.976 [info] Getting Manifest... twxs.cmake
+2022-12-26 21:01:30.977 [info] Getting Manifest... ms-vscode.cpptools
+2022-12-26 21:01:31.364 [info] Getting Manifest... dbaeumer.vscode-eslint
+2022-12-26 21:01:31.370 [info] Getting Manifest... ms-vscode.cmake-tools
+2022-12-26 21:01:31.385 [info] Installing extension: formulahendry.code-runner
+2022-12-26 21:01:31.385 [info] Installing the extension without checking dependencies and pack formulahendry.code-runner
+2022-12-26 21:01:31.537 [info] Getting Manifest... ms-python.vscode-pylance
+2022-12-26 21:01:31.670 [info] Installing extension: jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:31.671 [info] Installing the extension without checking dependencies and pack jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:31.785 [info] Getting Manifest... ms-python.python
+2022-12-26 21:01:31.871 [info] Getting Manifest... ms-toolsai.jupyter
+2022-12-26 21:01:32.132 [info] Installing extension: ms-vscode.cpptools-themes
+2022-12-26 21:01:32.133 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools-themes
+2022-12-26 21:01:32.182 [info] Installing extension: ms-toolsai.jupyter-renderers
+2022-12-26 21:01:32.183 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2022-12-26 21:01:32.184 [info] Installing extension: ritwickdey.liveserver
+2022-12-26 21:01:32.184 [info] Installing the extension without checking dependencies and pack ritwickdey.liveserver
+2022-12-26 21:01:32.186 [info] Installing extension: christian-kohler.path-intellisense
+2022-12-26 21:01:32.186 [info] Installing the extension without checking dependencies and pack christian-kohler.path-intellisense
+2022-12-26 21:01:32.189 [info] Installing extension: teabyii.ayu
+2022-12-26 21:01:32.189 [info] Installing the extension without checking dependencies and pack teabyii.ayu
+2022-12-26 21:01:32.191 [info] Installing extension: vscodevim.vim
+2022-12-26 21:01:32.192 [info] Installing the extension without checking dependencies and pack vscodevim.vim
+2022-12-26 21:01:32.194 [info] Installing extension: bradlc.vscode-tailwindcss
+2022-12-26 21:01:32.195 [info] Installing the extension without checking dependencies and pack bradlc.vscode-tailwindcss
+2022-12-26 21:01:32.197 [info] Installing extension: esbenp.prettier-vscode
+2022-12-26 21:01:32.197 [info] Installing the extension without checking dependencies and pack esbenp.prettier-vscode
+2022-12-26 21:01:32.198 [info] Installing extension: vscode-icons-team.vscode-icons
+2022-12-26 21:01:32.199 [info] Installing the extension without checking dependencies and pack vscode-icons-team.vscode-icons
+2022-12-26 21:01:32.199 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:32.200 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:32.201 [info] Installing extension: sdras.night-owl
+2022-12-26 21:01:32.202 [info] Installing the extension without checking dependencies and pack sdras.night-owl
+2022-12-26 21:01:32.203 [info] Installing extension: ms-toolsai.jupyter-keymap
+2022-12-26 21:01:32.204 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-keymap
+2022-12-26 21:01:32.206 [info] Installing extension: formulahendry.auto-close-tag
+2022-12-26 21:01:32.207 [info] Installing the extension without checking dependencies and pack formulahendry.auto-close-tag
+2022-12-26 21:01:32.209 [info] Installing extension: usernamehw.errorlens
+2022-12-26 21:01:32.209 [info] Installing the extension without checking dependencies and pack usernamehw.errorlens
+2022-12-26 21:01:32.210 [info] Installing extension: formulahendry.auto-rename-tag
+2022-12-26 21:01:32.211 [info] Installing the extension without checking dependencies and pack formulahendry.auto-rename-tag
+2022-12-26 21:01:32.212 [info] Installing extension: digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:32.212 [info] Installing the extension without checking dependencies and pack digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:32.214 [info] Installing extension: hex-ci.stylelint-plus
+2022-12-26 21:01:32.214 [info] Installing the extension without checking dependencies and pack hex-ci.stylelint-plus
+2022-12-26 21:01:32.215 [info] Installing extension: akamud.vscode-theme-onedark
+2022-12-26 21:01:32.216 [info] Installing the extension without checking dependencies and pack akamud.vscode-theme-onedark
+2022-12-26 21:01:32.218 [info] Installing extension: asvetliakov.vscode-neovim
+2022-12-26 21:01:32.218 [info] Installing the extension without checking dependencies and pack asvetliakov.vscode-neovim
+2022-12-26 21:01:32.219 [info] Installing extension: naumovs.color-highlight
+2022-12-26 21:01:32.220 [info] Installing the extension without checking dependencies and pack naumovs.color-highlight
+2022-12-26 21:01:32.221 [info] Installing extension: twxs.cmake
+2022-12-26 21:01:32.221 [info] Installing the extension without checking dependencies and pack twxs.cmake
+2022-12-26 21:01:32.222 [info] Installing extension: erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:32.222 [info] Installing the extension without checking dependencies and pack erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:32.224 [info] Installing extension: adpyke.codesnap
+2022-12-26 21:01:32.224 [info] Installing the extension without checking dependencies and pack adpyke.codesnap
+2022-12-26 21:01:32.228 [info] Installing extension: ms-vscode.cpptools
+2022-12-26 21:01:32.228 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools
+2022-12-26 21:01:32.497 [info] Installing extension: ms-vscode.cmake-tools
+2022-12-26 21:01:32.498 [info] Installing the extension without checking dependencies and pack ms-vscode.cmake-tools
+2022-12-26 21:01:32.499 [info] Installing extension: dbaeumer.vscode-eslint
+2022-12-26 21:01:32.500 [info] Installing the extension without checking dependencies and pack dbaeumer.vscode-eslint
+2022-12-26 21:01:32.881 [info] Installing extension: ms-python.vscode-pylance
+2022-12-26 21:01:32.882 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2022-12-26 21:01:33.081 [info] Installing extension: ms-python.python
+2022-12-26 21:01:33.082 [info] Installing the extension without checking dependencies and pack ms-python.python
+2022-12-26 21:01:33.089 [info] Installing extension: ms-toolsai.jupyter
+2022-12-26 21:01:33.089 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2022-12-26 21:01:34.077 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.1ef45267-4cd6-4500-972e-563c81d17ddd: jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:34.136 [info] Renamed to /home/amateur_hacker/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.17.2
+2022-12-26 21:01:34.139 [info] Extracting completed. jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:34.201 [info] Extension installed successfully: jeff-hykin.better-cpp-syntax
+2022-12-26 21:01:34.251 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.f639b3db-ed13-4465-87f4-40ccb7f0e521: formulahendry.code-runner
+2022-12-26 21:01:34.335 [info] Renamed to /home/amateur_hacker/.vscode/extensions/formulahendry.code-runner-0.11.8
+2022-12-26 21:01:34.338 [info] Extracting completed. formulahendry.code-runner
+2022-12-26 21:01:34.410 [info] Extension installed successfully: formulahendry.code-runner
+2022-12-26 21:01:35.073 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.5b0b29fb-daf3-4ddd-89c7-fbab765ee34c: ms-vscode.cpptools-themes
+2022-12-26 21:01:35.131 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2022-12-26 21:01:35.134 [info] Extracting completed. ms-vscode.cpptools-themes
+2022-12-26 21:01:35.195 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2022-12-26 21:01:35.785 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.64e9e5ee-0be1-48d7-a10d-251bce54fa04: ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:35.877 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2022-12-26 21:01:35.884 [info] Extracting completed. ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:35.916 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.543b8bc2-c5cf-4021-b6fe-fadf90efe61c: christian-kohler.path-intellisense
+2022-12-26 21:01:35.996 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+2022-12-26 21:01:36.016 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.3bdbc2d3-247e-49f0-aca2-92515720ef79: formulahendry.auto-rename-tag
+2022-12-26 21:01:36.043 [info] Renamed to /home/amateur_hacker/.vscode/extensions/christian-kohler.path-intellisense-2.8.4
+2022-12-26 21:01:36.046 [info] Extracting completed. christian-kohler.path-intellisense
+2022-12-26 21:01:36.092 [info] Renamed to /home/amateur_hacker/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10
+2022-12-26 21:01:36.094 [info] Extracting completed. formulahendry.auto-rename-tag
+2022-12-26 21:01:36.144 [info] Extension installed successfully: christian-kohler.path-intellisense
+2022-12-26 21:01:36.205 [info] Extension installed successfully: formulahendry.auto-rename-tag
+2022-12-26 21:01:36.492 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.60d1aa03-cb9f-4218-b2be-53a43c3ad85e: formulahendry.auto-close-tag
+2022-12-26 21:01:36.557 [info] Renamed to /home/amateur_hacker/.vscode/extensions/formulahendry.auto-close-tag-0.5.14
+2022-12-26 21:01:36.560 [info] Extracting completed. formulahendry.auto-close-tag
+2022-12-26 21:01:36.631 [info] Extension installed successfully: formulahendry.auto-close-tag
+2022-12-26 21:01:39.173 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.8e022d9f-1a35-4651-9595-9704463be8d3: usernamehw.errorlens
+2022-12-26 21:01:39.238 [info] Renamed to /home/amateur_hacker/.vscode/extensions/usernamehw.errorlens-3.6.0
+2022-12-26 21:01:39.245 [info] Extracting completed. usernamehw.errorlens
+2022-12-26 21:01:39.278 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.d0e972db-1319-4af5-8782-7efeb1914819: esbenp.prettier-vscode
+2022-12-26 21:01:39.364 [info] Extension installed successfully: usernamehw.errorlens
+2022-12-26 21:01:39.366 [info] Renamed to /home/amateur_hacker/.vscode/extensions/esbenp.prettier-vscode-9.10.3
+2022-12-26 21:01:39.378 [info] Extracting completed. esbenp.prettier-vscode
+2022-12-26 21:01:39.446 [info] Extension installed successfully: esbenp.prettier-vscode
+2022-12-26 21:01:39.483 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.af0dabfb-09fe-4a97-9430-5f1538616ca8: bradlc.vscode-tailwindcss
+2022-12-26 21:01:39.538 [info] Renamed to /home/amateur_hacker/.vscode/extensions/bradlc.vscode-tailwindcss-0.9.1
+2022-12-26 21:01:39.542 [info] Extracting completed. bradlc.vscode-tailwindcss
+2022-12-26 21:01:39.643 [info] Extension installed successfully: bradlc.vscode-tailwindcss
+2022-12-26 21:01:41.384 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.94234f67-8cbc-4a3f-a345-5963b91be921: vscodevim.vim
+2022-12-26 21:01:41.473 [info] Renamed to /home/amateur_hacker/.vscode/extensions/vscodevim.vim-1.24.3
+2022-12-26 21:01:41.476 [info] Extracting completed. vscodevim.vim
+2022-12-26 21:01:41.537 [info] Extension installed successfully: vscodevim.vim
+2022-12-26 21:01:44.432 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.ad3edad0-6819-422c-8fcb-62609b5322bf: akamud.vscode-theme-onedark
+2022-12-26 21:01:44.509 [info] Renamed to /home/amateur_hacker/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+2022-12-26 21:01:44.514 [info] Extracting completed. akamud.vscode-theme-onedark
+2022-12-26 21:01:44.600 [info] Extension installed successfully: akamud.vscode-theme-onedark
+2022-12-26 21:01:45.153 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.a8930c6a-4780-45b4-8c57-023c41e02f8c: adpyke.codesnap
+2022-12-26 21:01:45.180 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.29c14361-8bed-4695-9391-b97bef978d1a: erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:45.221 [info] Renamed to /home/amateur_hacker/.vscode/extensions/adpyke.codesnap-1.3.4
+2022-12-26 21:01:45.223 [info] Extracting completed. adpyke.codesnap
+2022-12-26 21:01:45.271 [info] Renamed to /home/amateur_hacker/.vscode/extensions/erikphansen.vscode-toggle-column-selection-1.0.6
+2022-12-26 21:01:45.274 [info] Extracting completed. erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:45.325 [info] Extension installed successfully: adpyke.codesnap
+2022-12-26 21:01:45.396 [info] Extension installed successfully: erikphansen.vscode-toggle-column-selection
+2022-12-26 21:01:47.295 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.8f7f1f00-ad24-41e2-8268-02b15f88e9a9: ritwickdey.liveserver
+2022-12-26 21:01:47.392 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2022-12-26 21:01:47.395 [info] Extracting completed. ritwickdey.liveserver
+2022-12-26 21:01:47.467 [info] Extension installed successfully: ritwickdey.liveserver
+2022-12-26 21:01:50.099 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.3622af9a-4bf8-4392-9761-774261bb746f: ms-toolsai.jupyter-renderers
+2022-12-26 21:01:50.171 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2022-12-26 21:01:50.174 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2022-12-26 21:01:50.246 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2022-12-26 21:01:52.673 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.2ba07989-d0cd-4d0d-ba55-f8fe34e8e625: ms-toolsai.jupyter
+2022-12-26 21:01:53.038 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109
+2022-12-26 21:01:53.089 [info] Extracting completed. ms-toolsai.jupyter
+2022-12-26 21:01:53.133 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.63d64954-c07a-4f13-8d21-5e173a9b5604: sdras.night-owl
+2022-12-26 21:01:53.243 [info] Extension installed successfully: ms-toolsai.jupyter
+2022-12-26 21:01:53.288 [info] Renamed to /home/amateur_hacker/.vscode/extensions/sdras.night-owl-2.0.1
+2022-12-26 21:01:53.293 [info] Extracting completed. sdras.night-owl
+2022-12-26 21:01:53.372 [info] Extension installed successfully: sdras.night-owl
+2022-12-26 21:01:53.537 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.2bfe030c-3cf1-4eba-a31d-6a61fe25772f: twxs.cmake
+2022-12-26 21:01:53.630 [info] Renamed to /home/amateur_hacker/.vscode/extensions/twxs.cmake-0.0.17
+2022-12-26 21:01:53.632 [info] Extracting completed. twxs.cmake
+2022-12-26 21:01:53.870 [info] Extension installed successfully: twxs.cmake
+2022-12-26 21:01:55.367 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.ac03a267-7a95-4263-b51d-f2a0c07fc02d: digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:55.505 [info] Renamed to /home/amateur_hacker/.vscode/extensions/digitalbrainstem.javascript-ejs-support-1.3.1
+2022-12-26 21:01:55.509 [info] Extracting completed. digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:55.576 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.12a75ab1-db2c-426c-aaea-1f371ae271d5: asvetliakov.vscode-neovim
+2022-12-26 21:01:55.607 [info] Extension installed successfully: digitalbrainstem.javascript-ejs-support
+2022-12-26 21:01:55.665 [info] Renamed to /home/amateur_hacker/.vscode/extensions/asvetliakov.vscode-neovim-0.0.95
+2022-12-26 21:01:55.669 [info] Extracting completed. asvetliakov.vscode-neovim
+2022-12-26 21:01:55.765 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2022-12-26 21:01:56.074 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.52212396-f22f-43e2-bf6f-dec8798e43ec: ms-toolsai.jupyter-keymap
+2022-12-26 21:01:56.154 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.58d378e4-096e-4304-a0f6-4b75ff38744f: dbaeumer.vscode-eslint
+2022-12-26 21:01:56.177 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2022-12-26 21:01:56.179 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2022-12-26 21:01:56.226 [info] Renamed to /home/amateur_hacker/.vscode/extensions/dbaeumer.vscode-eslint-2.2.6
+2022-12-26 21:01:56.230 [info] Extracting completed. dbaeumer.vscode-eslint
+2022-12-26 21:01:56.277 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2022-12-26 21:01:56.339 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2022-12-26 21:01:59.286 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.8c8a36e4-f0a0-4276-a8c4-6e77943e5bac: ms-vscode.cmake-tools
+2022-12-26 21:01:59.465 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-vscode.cmake-tools-1.12.27
+2022-12-26 21:01:59.473 [info] Extracting completed. ms-vscode.cmake-tools
+2022-12-26 21:01:59.708 [info] Extension installed successfully: ms-vscode.cmake-tools
+2022-12-26 21:01:59.944 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.f52c0699-ee40-4258-be54-a79a51992881: naumovs.color-highlight
+2022-12-26 21:01:59.984 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.17cb1d9f-15b3-4d1b-9b09-9224f256dfb7: teabyii.ayu
+2022-12-26 21:02:00.096 [info] Renamed to /home/amateur_hacker/.vscode/extensions/naumovs.color-highlight-2.5.0
+2022-12-26 21:02:00.099 [info] Extracting completed. naumovs.color-highlight
+2022-12-26 21:02:00.192 [info] Renamed to /home/amateur_hacker/.vscode/extensions/teabyii.ayu-1.0.5
+2022-12-26 21:02:00.195 [info] Extracting completed. teabyii.ayu
+2022-12-26 21:02:00.341 [info] Extension installed successfully: naumovs.color-highlight
+2022-12-26 21:02:00.672 [info] Extension installed successfully: teabyii.ayu
+2022-12-26 21:02:01.345 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.6c91e04b-0230-4244-b6ed-2284345a557e: hex-ci.stylelint-plus
+2022-12-26 21:02:01.407 [info] Renamed to /home/amateur_hacker/.vscode/extensions/hex-ci.stylelint-plus-0.56.6
+2022-12-26 21:02:01.411 [info] Extracting completed. hex-ci.stylelint-plus
+2022-12-26 21:02:01.482 [info] Extension installed successfully: hex-ci.stylelint-plus
+2022-12-26 21:02:03.553 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.c5da2f12-b8eb-4605-aff9-8dd691d1730b: vscode-icons-team.vscode-icons
+2022-12-26 21:02:03.616 [info] Renamed to /home/amateur_hacker/.vscode/extensions/vscode-icons-team.vscode-icons-12.0.1
+2022-12-26 21:02:03.619 [info] Extracting completed. vscode-icons-team.vscode-icons
+2022-12-26 21:02:03.679 [info] Extension installed successfully: vscode-icons-team.vscode-icons
+2022-12-26 21:02:05.834 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.c8ff009c-db2e-45c8-bd46-d8e21dc8ecb1: ms-python.python
+2022-12-26 21:02:05.889 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-python.python-2022.20.1
+2022-12-26 21:02:05.912 [info] Extracting completed. ms-python.python
+2022-12-26 21:02:05.977 [info] Extension installed successfully: ms-python.python
+2022-12-26 21:02:19.110 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.412e1eda-55be-4dc7-bd09-eb0eac299dd7: ms-vscode.cpptools
+2022-12-26 21:02:19.208 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-vscode.cpptools-1.13.8-linux-x64
+2022-12-26 21:02:19.223 [info] Extracting completed. ms-vscode.cpptools
+2022-12-26 21:02:19.295 [info] Extension installed successfully: ms-vscode.cpptools
+2022-12-26 21:02:19.470 [info] Extracted extension to /home/amateur_hacker/.vscode/extensions/.764551c9-7e2f-4548-9651-8645337353d1: ms-python.vscode-pylance
+2022-12-26 21:02:19.540 [info] Renamed to /home/amateur_hacker/.vscode/extensions/ms-python.vscode-pylance-2022.12.20
+2022-12-26 21:02:19.544 [info] Extracting completed. ms-python.vscode-pylance
+2022-12-26 21:02:19.643 [info] Extension installed successfully: ms-python.vscode-pylance
