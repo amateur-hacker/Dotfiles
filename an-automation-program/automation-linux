@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+mainMenu() {
+  printf "Quit\n"
+  printf "1. Terminal to run commands\n"
+  printf "2. Browser to Websearch/Tabliss\n"
+  printf "3. Typing from typeracer\n"
+  printf "4. play_music from favorites\n"
+  printf "5. video_play from youtube\n"
+  printf "6. music_play from youtube\n"
+  printf "7. Play, Quit and Download from youtube\n"
+  printf "8. Code in Emacs\n"
+  printf "9. Code in Neovim\n"
+}
+
+userChoice=$(mainMenu | fzf --layout=reverse | cut -d. -f1)
+
+case $userChoice in
+"Quit")
+  exit;;
+  1)
+    alacritty 
+    ;;
+  2)
+    brave 
+    ;;
+  3)
+    brave 'https://play.typeracer.com/'
+    ;;
+  4)
+    $HOME/./automation-music
+    ;;
+  5)
+    # alacritty -e ytfzf -t 
+    ytfzf -t 
+    ;;
+  6)
+    # alacritty -e ytfzf -t -m
+    ytfzf -t -m
+    ;;
+  7)
+    # alacritty -e ytfzf -t  
+    # alacritty -e  $HOME/./video-downloader
+    ytfzf -t
+    $HOME/./video-downloader
+    ;;
+  8)
+    codingDir=$HOME/Documents/my-documents/coding-folder/
+    emacsclient -c ${codingDir}
+    ;;
+  9)
+    # alacritty -e nvim ~/Documents/my-documents/coding-folder/
+    nvim ~/Documents/my-documents/coding-folder/
+    ;;
+esac

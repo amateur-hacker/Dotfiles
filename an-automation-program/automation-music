@@ -1,0 +1,170 @@
+#!/usr/bin/env bash
+
+# The menu of Music playlists with certain number of choices
+
+outerMenu() {
+  printf "Quit\n"
+  printf "1. Shreya Karmakar Playlist 🎶\n"
+  printf "2. Neffex Playlist 🎶\n"
+  printf "3. Lofi Hits 🎶"
+}
+userChoice=$(outerMenu | fzf --layout=reverse | cut -d. -f1)
+
+shreyaMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+neffexMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+lofiHitsMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+animationTrack() {
+  mpv "$HOME/.cache/source-mp3s/sir.mp3"
+  clear
+  sl -a -c -d -e -F -G -c -w
+  clear
+  mpv "$HOME/.cache/source-mp3s/ys.mp3"
+  clear
+  toilet -f mono12  is going to be | lolcat -a -d 1 -p -S  -t 
+  clear
+  sl -a -c -d -e -F -G -c -w
+  clear
+  mpv "$HOME/.cache/source-mp3s/playing.mp3"
+  clear
+
+}
+
+case $userChoice in
+"Quit")
+    pkill mpv
+    exit;;
+
+1)
+    shreyaChoice=$(shreyaMenu | fzf --layout=reverse| cut -d. -f1)
+      case $shreyaChoice in
+      "Quit")
+        pkill mpv
+        exit;;
+      1)
+       playerctl play-pause --player  mpv
+        ;;
+      2)
+        pkill mpv
+        dunstify -t 2000 "Playlist: shreya-karmakar" "Starting ..."
+        mpv $HOME/.cache/source-mp3s/shreya1.mp3
+        clear
+        mpv --playlist=$HOME/Music/my-music-sc-playlist/mp3s/shreya-karmakar-playlist/
+        clear
+        mpv $HOME/.cache/source-mp3s/shreya2.mp3
+        dunstify -t 2000 "Playlist: shreya-karmakar" "Finished ...."
+        ;; 
+      3)
+        touch $HOME/tmp-url
+        lofiDir=$HOME/Music/my-music-sc-playlist/mp3s/shreya-karmakar-playlist/
+        var1=$(/usr/bin/ls ${lofiDir} | fzf --layout=reverse>> $HOME/tmp-url)
+        var2=$(tail -n 1 tmp-url)
+        currentSong="${lofiDir}${var2}"
+        if [[ $currentSong == $lofiDir ]]; then
+          exit
+        else
+          animationTrack
+          mpv "$currentSong"
+          clear
+          mpv $HOME/.cache/source-mp3s/endmusic.mp3
+          rm $HOME/tmp-url
+          dunstify -t 2000 "Song: your-choice" "Finished ...."
+        fi
+       ;;
+       
+    esac;;
+2)
+    neffexChoice=$(neffexMenu | fzf --layout=reverse| cut -d. -f1)
+      case $neffexChoice in
+      "Quit")
+        pkill mpv
+        exit;;
+      1)
+       playerctl play-pause --player  mpv
+        ;;
+      2)
+        pkill mpv
+        dunstify -t 2000 "playlist: Neffex" "Starting ..."
+        mpv $HOME/.cache/source-mp3s/neffex1.mp3
+        clear
+        mpv --playlist=$HOME/Music/my-music-sc-playlist/mp3s/neffex-playlist/
+        clear
+        mpv $HOME/.cache/source-mp3s/neffex2.mp3
+        dunstify -t 2000 "Playlist: Neffex" "Finished ...."
+        ;;
+      3)
+        touch $HOME/tmp-url
+        lofiDir=$HOME/Music/my-music-sc-playlist/mp3s/neffex-playlist/
+        var1=$(/usr/bin/ls ${lofiDir} | fzf --layout=reverse>> $HOME/tmp-url)
+        var2=$(tail -n 1 tmp-url)
+        currentSong="${lofiDir}${var2}"
+        if [[ $currentSong == $lofiDir ]]; then
+          exit
+        else
+          animationTrack
+          mpv "$currentSong"      
+          clear
+          mpv $HOME/.cache/source-mp3s/endmusic.mp3
+          rm $HOME/tmp-url
+          dunstify -t 2000 "Song: your-choice" "Finished ...."
+        fi
+       ;;
+       
+    esac;;
+
+3)
+    lofiChoice=$(lofiHitsMenu | fzf --layout=reverse| cut -d. -f1)
+      case $lofiChoice in
+      "Quit")
+        pkill mpv
+        exit;;
+      1)
+       playerctl play-pause --player  mpv
+        ;;
+      2)
+        pkill mpv
+        dunstify -t 2000 "Playlist: lofi-hits" "Starting ..."
+        mpv $HOME/.cache/source-mp3s/lofi1.mp3
+        clear
+        mpv --playlist=$HOME/Music/my-music-sc-playlist/mp3s/hindi-lofi-hits/
+        clear
+        mpv $HOME/.cache/source-mp3s/lofi2.mp3
+        dunstify -t 2000 "Playlist: lofi-hits" "Finished ...."
+       ;;
+      3)
+        touch $HOME/tmp-url
+        lofiDir=$HOME/Music/my-music-sc-playlist/mp3s/hindi-lofi-hits/
+        var1=$(/usr/bin/ls ${lofiDir} | fzf --layout=reverse>> $HOME/tmp-url)
+        var2=$(tail -n 1 tmp-url)
+        currentSong="${lofiDir}${var2}"
+        if [[ $currentSong == $lofiDir ]]; then
+          exit
+        else
+          animationTrack 
+          mpv "$currentSong"
+          clear
+          mpv $HOME/.cache/source-mp3s/endmusic.mp3
+          rm $HOME/tmp-url
+          dunstify -t 2000 "Song: your-choice" "Finished ...."
+        fi
+      ;;
+
+    esac;;
+esac

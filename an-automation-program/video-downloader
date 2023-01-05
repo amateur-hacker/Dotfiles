@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+url=$(tail ~/.cache/ytfzf/watch_hist | grep url | sed 's/.$//' |  awk '{ print substr( $0, 13 ) }')
+myVideoDir=$HOME/Videos/Youtube/
+
+mpv "$HOME/.cache/source-mp3s/video-downloader.mp3"
+
+cd $myVideoDir && yt-dlp $url
+
+notify-send "$url Download" "Completed"
