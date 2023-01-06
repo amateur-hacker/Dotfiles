@@ -1,0 +1,18 @@
+i am fine
+how are you
+hi
+ddp to swap two lines.
+:/word/m(move)linenumber. $ or 0 to first or endth line
+
+:/word/+1m-2
+g; to go previous edit cursor
+g, to go current cursor
+0,$> to indent the lines between these range.
+macros
+qnumber q to quit macros to use it press number @ macrosnumber
+C-v to visual block mode then press : to go in command mode then press norm I" after that repeat the step to double quote C-v, :, norm A" 
+/word cgn means to go on next search.
+. period to repeat the last command.
+:ab (abbreviation) nv neovim C-v to don't change this instance  
+To use shell command in neovim press : to go in command mode then press ! exclamation mark then press your actual command.
+To fix read only file error you can enter :w !sudo tee %   done.

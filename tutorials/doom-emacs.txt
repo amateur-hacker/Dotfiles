@@ -1,0 +1,5 @@
+org-toggle-heading SPC-m-h
+org-toggle-items SPC-m-i
+
+Ctrl+Return to insert in previous asterisk symbol.
+

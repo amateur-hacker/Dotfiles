@@ -1,0 +1,74 @@
+----------- **** Some Cool Shortcuts to know about the xmonad-desktop (a tiling window manager based on haskell programming language) ********** --------------
+
+
+1. Windows + Enter = Open Terminal
+2. Windows + Shift + Enter = Dmenu/Prompt
+3. Windows + Shift + c = Close Application
+4. Windows + Shift + q = logout
+5. Windows + p + i = Screenshot
+6. Windows + b = Qute browser ( Which is totally based on keybindings)
+7. Windows + j/k = To Switch Window (without touch touchpad/mouse)
+8. Windows + Shift + h/j/k/l = To Swith Layout
+9. Windows + Shift + r = recompile/refresh
+10. Windows + h/l = to shrink/expand layout size (Suggestion: Don't try this)
+11. Windows + number = Switch Workspace
+12. Windows + shift + number = Send Window at another Workspace 
+13. Windows + n follow by v = Vifm (file-manager based on vim/nvim)
+14. Windows + n follow by c = Code (Visual Studio Code)
+15. Windows + n follow by s = Subl (Sublime Text)
+16. Windows + n follow by f = pcmanfm (blazzing fast file manager)
+17. Windows + n follow by n = Neovim (Modified version of vim)
+18. Windows + n follow by t = Telegram-Desktop (chat application + Some cool Stuffs)
+19. Windows + n follow by d = Discord (chat application + Some Cool Stuffs)
+20. Windows + n follow by b = Brave-Browser (A light weight fast browser)
+21. Windows + n follow by h = rofi a hotkey (A minimalstic fast launcher)
+
+
+
+Some extra terminal and dmenu/prompt command :
+
+To take screenshots in terminal:
+1. maim /home/username/folder_path/filename.png (to take screenshot of entire screen) 
+2. maim --select /home/username/folder_path/filename.png (to take screenshot of selected part)
+3. maim -i (xdotool getactivewindow) /home/username/folder_path/filename.png (to take screenshot of active window)
+
+#Logout with dmenu/prompt you can use dm-logout or can simply type logout after pressing windows + Shift + Enter.
+
+To read pdf in temrinal:
+1. you can zathura pdf reader (based on terminal)
+2. command to read any pdf in terminal is zathura filepath.pdf
+
+To play music in terminal with some mindblowing features:
+1. you can use mpg123 which will already installed in your machine by default.
+2. command to listen music mpg123 filepath.mp3 (Remebered that it can runs only .mp3 files)
+
+Some Neovim Terminal command/shortucts:
+
+1. nvim filepath/folderpath to open neovim
+2. You can save session with the :SessionSave command
+3. To active SaveSession/SessionLoad you can use spc s l key seperately.(Remeber these are 3 keys spckey skey lkey and you can press it one by one.
+4. To Delete any session you can use :SessionDeleteCommand.
+5. You can use gg to go on first line and capital G to go on last line.
+6. You can  also go on a specific line with number+gg/G
+7. To delete/cut any line you can press dd and for copy you can use yy and can use p to paste or put. 
+8. To delete a word you can use diw.
+9. To change in word you can press ciw.
+10. To change a single character you can use r to replace a character.
+11. 0 to go one first word of the line.
+12. $ to go on last word of the line.
+13. To comment any line in normal mode you can use gcc
+14. To comment more line line normal mode you can use number+gcc and it will comment those lines which is under your cursor.  
+15. To copy multiple lines you can use number+yy
+16. To delete multiple lines you can use number+dd
+17. To search for any word in file you can press slash / inside your bottom of the screen in normal mode and n to go downward to multiplewords and capital n to go backwards to multiplewords.
+18. To change colorscheme for your current session you can press spc h t seperately and can choose your favorite themes.
+19. To change colorscheme permanently you can change in 16th line and can replace colorscheme default with your own  in .config/nvim/lua/dt/highlights.lua directory/path with the help of neovim. 
+20. To insert mode in neovim you can use i to before your cursor and capital I to insert just before first letter of your line from your cursor.   
+21. To insert/append mode after your cursor you can use a and capital a to insert/append after the last letter of your line.
+22. you can use o to insert in new line under your cursor and Capital O to use insert a new line  before your cursor. 
+23. To come in visual mode you can use v and can use j, k, h, l to select multiple line or words for coping/yanking, deleting and for commeting.
+24. To open nerdtree or directory tree you can use control + k and to toggle it repeat this again (Remembered that before toggling and to show function tag bar just click on code place first.
+25. To open functions tagbar you can use control + l and to toggle it repeat this again.
+26. To open terminal/toggleterm you can use control + j and to toggle it you can repeat this step again.
+27. To Switch between nerdtree tagbar and code place you can use control+w follow by w 
+28. To open recent files you can use spc f r seperately.    

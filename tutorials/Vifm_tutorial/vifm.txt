@@ -1,0 +1,37 @@
+j, k down/up 
+h, l left/right
+gg , G top/bottom
+tab/backspace key to switch between two panes
+:q Quit
+vifm ~/ /etc/ it will open vifm in two different directory
+default bookmark 'h it directly goes to home folder section
+ctrl-w v to vertical split
+ctrl-w s to horizontal split
+ctrl-w o to only pane/split show at a time
+In command line you can just type :sp to horizontal split :vs to vertical split :only to only single pane/split.
+To preview a file in the same pane press e key and to quit out of that just press q or :q as you want.
+To preview a file/directory in the opposite pane you can press w but here if file manager you can navigate with h, j, k, l but to working these keys in preview parts you have to 
+press Shift-Tab to switch that preview pane now you can navigate with that particular keys j to down k to up.
+If you hit single tab before hitting shift-tab preview mode will open to your old vertical split file manager.
+To quit from this opposite preview mode just press w again to toggle it.
+zo to show hidden files zm to toggle it. 
+gg to go to top and G to go to bottom in both preview and file manager mode.
+cw/A to change entire file name.
+cW to change file with root previlege means you can just file name not their extension name.
+m/yourcharacter to bookmark a file/folder and to access these bookmarks just press 'yourcharacter.
+:marks is the command by which you can see your all bookmarks.
+dd to delete any bookmark q to quit from all bookmars page.
+dd to delete a file/folder y for confirmation.
+u to undo and also you can do put with the p key just pressing after the deleting confirmation.
+yy to yank a file/folder and p to put in that directory where you want.
+:shell simply does the open a terminal in that directory where you are.
+
+
+
+
+
+
+
+
+
+

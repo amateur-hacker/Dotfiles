@@ -1,0 +1,28 @@
+************************ Steps to learn neovim ***************************************
+
+#1: To open the file type nvim filename.xyz
+#2: To exit from file without entered any text you can type :q.
+#3: To insert something in your file you can type i by which you can type text.
+#4: o and a also used for insert mode. o is used to insert in next line and a is used to insert to type after the character. and i is also used to insert beginning of the line.
+#5: If you entered any text and want to save that then you can simply type :wq.
+#6: If you entered any text and don't want to save that then you can simply type :q!.
+#7: If you hit shit + I then you see you jumped to the beginning of the line.
+#8: Opposite happens with capital A by which you go to the end of the line.
+#9: Capital O doesn't open a line below the current line, but above like that.
+#10: Esc key is used to exit to insert mode.
+#11: arrow key down/up is used to move one line down and up but if you want to move many lines down and up then first you can hit Esc to exit the insert mode then You can hit any number that you want and then press up/down 
+key.
+  
+#12: arrow key right/left is used to move one letter right and left but if you want to move many letters right and left then first you can hit Esc to exit the insert mode then You can hit any number that you want and press
+right/left arrow key.
+
+#13. Make sure you're in the normal mode. Press Esc to be sure. Then copy the entire line by pressing yy (more info :help yy). Y stands for "yank". Instead, you can also press Y (shift + y) but it is used for to copy entire line
+from your existing cursor.
+
+#14. Paste the line by pressing p. That will put the yanked line right under your cursor (on the next line). You can also paste before your current line by pressing the capital letter P. Again,to get some help you can use 
+:help p.
+
+#15. To undo a change in Vim/Vi type u , and to redo a change which was undone use the Ctrl-R key sequence.
+#16. dd - cut the current line, including the newline character at the end of the line.
+#17. Instead of four right, left, down and up key, you can simply use h, j, k , l keys in simple mode j for down, k for up, h for left and l for right. 
+

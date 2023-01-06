@@ -1,0 +1,479 @@
+#+TITLE: Mysql Tutorial
+#+DESCRIPTION: An org document to learn Mysql
+#+AUTHOR: Amateur_Hacker
+
+* Mysql Tutorial:
+
+** To list all the users in the system for mariadb or mysql:
+*** select user from mysql.user
+
+** To clear mysql screen:
+*** system clear
+*** ctrl + l
+
+** To Exiting the mysql:
+*** exit; or quit; or \q or type ctrl-c
+
+** To change the root user password:
+*** ALTER USER 'root'@'localhost' IDENTIFIED BY '262004';
+*** flush privileges;
+
+** Some Basic Commands or Query:
+*** help;
+*** show databases;
+*** select @@hostname;
+*** help contents;
+*** In contents you can choose:
+*** help data types;
+
+** Creating Database:
+*** CREATE DATABASE <name>;
+
+**** Example:
+***** CREATE DATABASE soap_store;
+***** CREATE DATABASE DogApp;
+
+*** CREATE DATABASE My App;  = No Recommended
+*** CREATE DATABASE hello_world_db; == We use capitalize letter to signify what comes from sql what is custom names.
+
+*** To Delete a Database:
+*** DROP DATABASE <name>;
+
+**** Example:
+***** DROP DATABASE hello_world_db;
+***** DROP DATABASE soap_store;
+***** DROP DATABASE DogApp;
+
+** To Use Database;
+*** USE <database_name>;
+
+**** Example:
+***** USE hello_world_db;
+***** USE soap_store;
+***** USE DogApp;
+
+** To Check Current Database:
+*** SELECT database();
+****** Note : If no database is selected then it will show NULL.
+
+** Tables
+*** The true heart of SQL.
+*** A database is just a bunch of tables.
+*** Tables holds the data.
+*** A collection of related data held in a structured format within a database.
+
+** Let's Take a Quick Example Using Cats.
+*** The cat's table!
+*** Name : blue, rocket, monty, sam
+*** Breed: Scottish Fold, Persian, Tabby, Munchkin
+*** Age: 1, 3, 10, 5
+
+** Columns(headers)
+ |------+-------+-----|
+ | Name | Breed | Age |
+ |------+-------+-----|
+
+** Rows(the actual data)
+|--------+---------------+----|
+| Blue   | Scottish Fold |  1 |
+| Rocket | Persian       |  3 |
+| Monty  | Tabby         | 10 |
+| Sam    | Munchkin      |  5 |
+|--------+---------------+----|
+
+** Databases are made up of lots of tables.
+
+** Tables pt. 2
+
+***** In cat table:
+***** Name must be specified as a text.
+***** Breed must be specified as a text.
+***** Age must be specified as a number.
+***** In reality, there are a lot of different MySQL data types.
+
+*** Data Types:
+**** Numeric Types:
+****** INT
+****** SMALLINT
+****** TINYINT
+****** MEDIUMINT
+****** BIGINT
+****** DECIMAL
+****** NUMERIC
+****** FLOAT
+****** DOUBLE
+****** BIT
+
+**** String Types:
+****** CHAR
+****** VARCHAR
+****** BINARY
+****** VARBINARY
+****** BLOB
+****** TINYBLOB
+****** MEDIUMBLOB
+****** LONGBLOB
+****** TEXT
+****** TINYTEXT
+****** MEDIUMTEXT
+****** LONGTEXT
+****** ENUM
+
+**** Date Types:
+****** DATE
+****** DATETIME
+****** TIMESTAMP
+****** TIME
+****** YEAR
+
+*** INT:
+***** A whole number with a maxium value of 4294967295
+
+**** Example:
+****** 12, 0, 42, -9999, 3145677
+
+*** VARCHAR:
+***** A variable length string between 1 and 255 characters.
+
+**** Example:
+****** 'coffee!'
+****** 'aAbbb akljsd'
+****** '-9999'
+****** 'L'
+****** 'The quick brown fox jumps over the lazy dog'
+
+** In cat table:
+*** Name must be specified as varchar(100)
+*** Breed must be specified as varchar(100)
+*** Age must be specified as int
+
+** Draw a Tweets Table:
+*** At a minimum the columns must include.
+*** A username (max 15 chars)
+*** The tweet content (max 140 chars)
+*** Numbers of favorites
+****** Note: Make sure to specify correct MySQL datatypes!.
+
+** Creating Tables:
+*** Syntax:
+
+ CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  );
+
+*** To Check the existing tables:
+***** SHOW TABLES;
+
+*** To print column from table:
+***** SHOW COLUMNS FROM <tablename>;
+***** or
+***** DESC <tablename>; (DESC means DESCRIBE)
+
+*** Deleting Tables:
+***** DROP TABLE <tablename>;
+
+** Time for another activity:
+***** Create a pastries table
+****** It should include 2 columns: name and quantity. Name is 50 characters max.
+****** Inspect your table/columns ini the CLI.
+****** Delete your table.
+
+
+******* #### END #####
+
+** Insert
+*** Adding Data to your tables
+***** Syntax:
+****** INSERT INTO cats (name, age)
+****** VALUES ('Jetson', 7);
+**** or
+****** INSERT INTO cats (name, age)  VALUES ("Jetson", 7);
+**** or
+  INSERT INTO cats
+                (NAMES,
+                 age)
+  VALUES         ("Jetson",
+                   7 );
+
+
+*** The Order Matters:
+****** INSERT INTO cats (age , name)
+****** VALUES (12, 'Victoria');
+
+**** Example:
+***** CREATE TABLE cats(name VARCHAR(50), age INT);
+
+***** INSERT INTO cats(name, age)
+***** VALUES('Blue', 1);
+**** and
+***** INSERT INTO cats(age, name) VALUES(11, 'Draco');
+
+*** So, How do we know It worked?
+***** SELECT * FROM cats;
+
+*** Multiple Insert:
+
+INSERT INTO cats(name, age)
+VALUES('Peanut', 10)
+        ,('Butter', 3)
+        ,('Jelly', 1);
+
+***** SELECT * FROM cats;
+
+** Quick Quiz:
+*** first_name - 20 char limit
+*** last_name - 20 char limit
+*** age
+
+**** Insert Your First Person
+
+|------------+-----------+-----|
+| first_name | last_name | age |
+|------------+-----------+-----|
+| 'Sachin'   | 'Thakur'  |  18 |
+|------------+-----------+-----|
+
+**** Insert Your Second Person
+
+|------------+-----------+-----|
+| first_name | last_name | age |
+|------------+-----------+-----|
+| 'Vipin'    | 'Thakur'  |  17 |
+|------------+-----------+-----|
+
+****** Note: This time try insert in another sequence like age first then l_name then f_name.
+
+**** Insert Multiple Time
+
+|------------+-----------+-----|
+| first_name | last_name | age |
+|------------+-----------+-----|
+| 'Anjali'   | 'Thakur'  |  15 |
+| 'Anand'    | 'Jha'     |  17 |
+| 'Ashish'   | 'Jha'     |  14 |
+|------------+-----------+-----|
+
+** Solution:
+*** CREATE TABLE people(first_name VARCHAR(20), last_name VARCHAR(20), age INT);
+
+*** INSERT INTO people(first_name, last_name, age)
+*** VALUES('Sachin', 'Thakur', 18);
+
+*** INSERT INTO people(age, last_name, first_name)
+*** VALUES(17, 'Thakur', 'Vipin');
+
+*** INSERT INTO people(first_name, last_name, age)
+*** VARIABLE('Anjali', 'Thakur', 15)
+*** ,('Anand', 'Jha', 17)
+*** ,('Ashish', 'Jha', 14);
+
+** Warnings:
+
+**** Case 1:
+***** CREATE TABLE cats(name VARCHAR(50), age INT);
+
+***** INSERT INTO cats(name, age)
+***** VALUES('This cat is named Charlie which is also a human name. In fact I know a couple of Charlies. Fun Fact', 10);
+
+******** Note : It will show 1 Warning because the range of string is just 50 characters.
+
+*** To Show Warnings:
+***** SHOW WARNINGS;
+
+**** Case 2:
+***** INSERT INTO cats(name, age)
+***** VALUES(13, "Jenny");
+
+******** Note : It will show also a Warning incorrect integer or string value.
+
+** NULL:
+
+*** Null means the value is not known.
+*** Null does not mean zero.
+
+|-------+------------+------+-----+---------+-------|
+| Field | Type       | Null | key | Default | Extra |
+|-------+------------+------+-----+---------+-------|
+| name  | varchar(5) | YES  |     | NULL    |       |
+| age   | int(11)    | YES  |     | NULL    |       |
+|-------+------------+------+-----+---------+-------|
+
+**** Case 1:
+***** CREATE TABLE cats(name VARCHAR(50), age INT);
+***** INSERT INTO cats(name) VALUES ('Albama');
+
+******** Note: As age is not defined it will show null.
+
+**** Case 2:
+***** INSERT INTO cats() VALUES ();
+
+******** Note: As both name and age are not defined it will show null.
+
+*** To prevent from NULL:
+
+**** The solution NOT NULL
+***** Syntax:
+ CREATE TABLE cats2
+(
+    name VARCHAR (100) NOT NULL,
+    age INT NOT NULL
+);
+***** DESC cats2
+****** Now Both will show No NULL.
+
+***** INSERT INTO cat2(name) VALUES('Texas');
+****** It will show Field 'age' doesn't have a default value and same case for if we just specify the age then will show Field 'name' doesn't have a default value.
+
+
+** Default Value:
+
+|-------+------------+------+-----+---------+-------|
+| Field | Type       | Null | key | Default | Extra |
+|-------+------------+------+-----+---------+-------|
+| name  | varchar(5) | YES  |     | NULL    |       |
+| age   | int(11)    | YES  |     | NULL    |       |
+|-------+------------+------+-----+---------+-------|
+
+*** To set default values:
+
+**** Syntax:
+
+ CREATE TABLE cats3
+ (
+    name VARCHAR(100) DEFAULT 'Unnamed',
+    age INT DEFAULT 99
+ );
+
+***** INSERT INTO cats3(name) VALUES('Tommy');
+***** INSERT INTO cats3(age) VALUES(19);
+***** INSERT INTO cats3() VALUES();
+
+***** DESC cats3;
+***** SELECT * FROM cats3;
+****** These all will automatically take default as we mentioned below.
+
+|---------+-----|
+| name    | age |
+|---------+-----|
+| Tommy   |  99 |
+| Unnamed |  19 |
+| Unnamed |  99 |
+|---------+-----|
+
+
+** NOT NULL + DEFAULT VALUE:
+
+********  If we Insert like this for Above table example:
+ INSERT INTO cats3(name, age) VALUES ('Motana', NULL);
+
+******** Above line will overwrite the default value, To save this we use this combination not nul + defaul tvalue.
+
+*** Syntax:
+
+    CREATE TABLE cats4
+    (
+        name VARCHAR(100) NOT NULL DEFAULT 'unnamed',
+        age INT NOT NULL DEFAULT 99
+    );
+
+********  If we Insert like this for this table:
+ INSERT INTO cats4(name, age) VALUES ('Motana', NULL);
+
+******** Above line will not overwrite the default value it will show Column 'age' cannot be null.
+
+
+** Key:
+
+|-------+------------+------+-----+---------+-------|
+| Field | Type       | Null | key | Default | Extra |
+|-------+------------+------+-----+---------+-------|
+| name  | varchar(5) | YES  |     | NULL    |       |
+| age   | int(11)    | YES  |     | NULL    |       |
+|-------+------------+------+-----+---------+-------|
+
+*** To save from multiple enteries we use key.
+|-------+-------+-----|
+| Name  | Breed | Age |
+|-------+-------+-----|
+| Monty | Tabby |  10 |
+| Monty | Tabby |  10 |
+| Monty | Tabby |  10 |
+| Monty | Tabby |  10 |
+| Monty | Tabby |  10 |
+|-------+-------+-----|
+
+*** To make each unique
+|-------+-------+-----+-------|
+| Name  | Breed | Age | CatID |
+|-------+-------+-----+-------|
+| Monty | Tabby |  10 |     1 |
+| Monty | Tabby |  10 |     2 |
+| Monty | Tabby |  10 |     3 |
+| Monty | Tabby |  10 |     4 |
+| Monty | Tabby |  10 |     5 |
+|-------+-------+-----+-------|
+
+*** Primary Key (A unique identifier)
+******** Note : Import Term
+
+**** Example:
+
+CREATE TABLE unique_cats (cat_id INT NOT NULL
+                        , name VARCHAR(100)
+                        , age INT
+                        , PRIMARY KEY (cat_id));
+
+***** INSERT INTO unique_cats(id, name, age) VALUES(1, "Fred", 23);
+***** DESC unique_cats;
+***** SELECT * FROM unique_cats;
+
+****** Result:
+
+|--------+------+-----|
+| cat_id | name | age |
+|--------+------+-----|
+|      1 | Fred |  23 |
+|--------+------+-----|
+
+******** Note: If you make a duplicate key like this:
+INSERT INTO unique_cats(cat_id, name, age) VALUES(1, "Jenny", 21);
+******** Then it will throw an error like this:
+******** Duplicate entry '1' for key 'PRIMARY'
+
+
+** Extra:
+
+|-------+------------+------+-----+---------+-------|
+| Field | Type       | Null | key | Default | Extra |
+|-------+------------+------+-----+---------+-------|
+| name  | varchar(5) | YES  |     | NULL    |       |
+| age   | int(11)    | YES  |     | NULL    |       |
+|-------+------------+------+-----+---------+-------|
+
+*** Syntax:
+
+CREATE TABLE unique_cats2(cat_id INT NOT NULL AUTO_INCREMEMNT
+                        ,name VARCHAR(100)
+                        ,age INT
+                        , PRIMARY KEY (cat_id));
+
+***** INSERT INTO unique_cats2(name, age) VALUES ('Skippy', 4);
+***** INSERT INTO unique_cats2(name, age) VALUES ('Jiff', 3);
+***** DESC unique_cats2;
+***** SELECT * FROM unique_cats2;
+
+****** Result:
+
+|--------+--------+-----|
+| cat_id | name   | age |
+|--------+--------+-----|
+|      1 | Skippy |   4 |
+|      2 | Jiffy  |   3 |
+|--------+--------+-----|
+
+******** NOTE: AUTOINCREMENT will always increment the cat_id by 1 with specifying it.
+
+
+****** ### END ###

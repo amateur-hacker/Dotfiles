@@ -1,0 +1,250 @@
+To list all the users in the system for mariadb or mysql:
+
+select user from mysql.user
+system clear to clear mysql screen or to go to top can enter Ctrl+l
+
+Exiting the shell
+exit; or quit; or \q or type ctrl-c
+
+# To change the root user password
+ALTER USER 'root'@'localhost' IDENTIFIED BY '262004';
+flush privileges;
+
+Some Basic Commands or Query:
+help;
+show databases;
+select @@hostname;
+help contents;
+In contents you can choose:
+help data types;
+
+# Creating Database:
+CREATE DATABASE <name>;
+
+Example:
+CREATE DATABASE soap_store;
+CREATE DATABASE DogApp;
+
+CREATE DATABASE My App;  = No Recommended
+
+CREATE DATABASE hello_world_db; == We use capitalize letter to signify what comes from sql what is custom names.
+
+# To Delete a Database:
+DROP DATABASE <name>;
+
+#Example:
+DROP DATABASE hello_world_db;
+DROP DATABASE soap_store;
+DROP DATABASE DogApp;
+
+# Time To Use Database By using use keyword:
+USE <database_name>;
+
+#Example:
+USE hello_world_db;
+USE soap_store;
+USE DogApp;
+
+#To check what database we are using currently you can use this command or query:
+SELECT database();
+
+#Note : If no database is selected then it will print NULL.
+
+#Tables 
+The true heart of SQL.
+A database is just a bunch of tables.
+Tables holds the data.
+"A collection of related data held in a structured format within a database."
+
+# Quick example using cats.
+The cat's table!
+Name : blue, rocket, monty, sam
+Breed: Scottish Fold, Persian, Tabby, Munchkin
+Age: 1, 3, 10, 5 
+
+Columns(headers)
+Name | Breed | Age
+
+Rows(the actual data)
+Blue | Scottish Fold | 1
+Rocket | Persian | 3 
+Monty | Tabby | 10
+Sam | Munchkin | 5
+
+Databases are made up of lots of tables.
+
+# Tables pt. 2
+Data Types:
+In cat table:
+Name must be specified as a text.
+Breed must be specified as a text.
+Age must be specified as a number.
+
+# In reality, there are a lot of different MySQL data types.
+
+#Numeric Types:
+INT
+SMALLINT
+TINYINT
+MEDIUMINT
+BIGINT
+DECIMAL 
+NUMERIC
+FLOAT
+DOUBLE
+BIT
+
+
+#String Types:
+CHAR
+VARCHAR
+BINARY
+VARBINARY
+BLOB
+TINYBLOB
+MEDIUMBLOB
+LONGBLOB
+TEXT
+TINYTEXT
+MEDIUMTEXT
+LONGTEXT
+ENUM
+
+#Date Types:
+DATE
+DATETIME
+TIMESTAMP
+TIME
+YEAR
+
+
+#INT 
+A whole number with a maxium value of 4294967295
+Example:
+12, 0, 42, -9999, 3145677
+
+#VARCHAR
+A variable length string between 1 and 255 characters.
+
+#Example:
+'coffee!'
+'aAbbb akljsd'
+'-9999'
+'L'
+'The quick brown fox jumps over the lazy dog'
+
+
+#In cat table 
+Name must be specified as varchar(100)
+Breed must be specified as varchar(100)
+Age must be specified as int
+
+
+# Draw a Tweets Table:
+At a minimum the columns must include.
+
+A username (max 15 chars)
+The tweet content (max 140 chars)
+Numbers of favorites
+
+Note: Make sure to specify correct MySQL datatypes!.
+
+
+# Creating Tables:
+Syntax:
+
+CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  );
+
+To Check the existing tables:
+SHOW TABLES;
+
+To print column from table:
+SHOW COLUMNS FROM <tablename>;
+or 
+DESC <tablename>; (DESC means DESCRIBE)
+
+#Deleting Tables:
+DROP TABLE <tablename>;
+
+#Time for another activity:
+Create a pastries table
+> It should include 2 columns: name and quantity. Name is 50 characters max.
+> Inspect your table/columns ini the CLI.
+> Delete your table.
+
+
+#### END #####
+
+
+
+Mysql:
+
+Question1: What is a database?
+Ans:
+i. A collection of data.
+Ex: A phone book.
+Find Ned Flanders' Phone Number
+Find People With First Name "Ned"
+Find All Phone Numbers With Area Code 415
+Find All People Who Have a 3-letter First Name 
+
+ii. A method for accessing and manipulating that data. 
+
+
+Question2: Why do they matter?
+Ans:
+
+
+Database Vs Database Management System (DBMS)
+
+Your App > DBMS > Database 
+
+
+DBMS > Database
+
+PostgreSQL  MySQL
+Oracle Database SQLite
+
+these 4 things are not databases, these are DBMS.
+
+Question3: What is a Database?
+Ans:
+A structured set of computerized data with an accessible interface.
+
+MySQL
+vs.
+SQL
+
+Let's start with SQL which stands for Structured Query Language.
+SQL is the language which we use to "talk" to our databases.
+Let's take an example.
+With a human eye code not with an actual SQL Code.
+"Find All Users"
+"Find All Users Who Are 18 Years Old"
+"Add A New User With Username 'Sachin'"
+"Delete Every Single User!"
+
+A Quick Preview!
+Find All Users Who Are 18 or Older
+In SQL Code we call it query.
+Select * FROM Users WHERE Age >= 18;
+
+Working With MySQL Is Primarily Writing SQL.
+
+### Relational Databases
+MySQL
+SQLite            ===> All Use SQL 
+PostgreSQL
+Many Others
+
+Comaprison between two DBMS MySQL Vs. PostgreSQL
+In MySQL:
+SELECT * FROM Users WHERE Age >= 18;
+In PostgreSQL:
+SELECT * FROM Users WHERE Age >= 18;
+Note: They both use SQL.
+There are slight differences in syntax.

@@ -1,0 +1,42 @@
+#To Create
+tmux new -s SessionName
+
+#To exit
+tmux detach
+
+#To list
+tmux ls
+
+#To go into a specific session
+tmux attach -t SessionName
+
+#To list Session in tmux
+prefix C-a then press s
+
+Motion keys are j, k, Ctrl-j and Ctrl-k.
+
+To split vertically
+C-a %
+C-a |
+
+
+To split horizontally 
+C-a "
+C-a -
+
+
+Ca r to refresh
+C-a I to install plugin
+
+C-a c to new tmux window
+
+C-a number to navigate between windows
+or C-a n to move on next window and C-a p to move on previous window
+C-a , to rename a window 
+
+C-a w to see all tmux windows
+
+C-a [ then j to scroll in tmux pane or J, K in a fixed cursor position or C-u and C-d to move half down and up of the page or C-b to move up a full page and C-m to move up a down of 
+full page.
+
+
