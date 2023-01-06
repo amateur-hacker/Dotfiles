@@ -1,0 +1,64 @@
+body {
+  background-color: #DAEAF1;
+  margin-left: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 4%;
+}
+h3 {
+  color: #3AB0FF;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  /* font-style: normal; */
+}
+
+p {
+  font-size: 20px;
+}
+
+
+li{
+  font-size: 18px;
+  line-height: 2;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  font-weight: normal;
+}
+
+th{
+  font-size: 19px;
+  font-family: 'Montserrat', sans-serif;
+}
+td {
+  font-size: 17px;
+}
+.hobbies{
+  font-size: 19px;
+}
+
+.contact{
+  font-size: 19px;
+}
+.edittoProfile{
+  margin-left: -40px;
+  color: black;
+}
+.editotoh3tag{
+  /* font-size: 30px; */
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 29px;
+
+}
+
+
+/* #66BFBF */
+/* #DAEAF1 */

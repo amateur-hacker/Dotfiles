@@ -1,0 +1,40 @@
+/* ****************************** TAG SELECTORS ************************************** */
+/* h1{
+  color: red;
+  font-size: 40px;
+} */
+
+/* img{
+   background-color: red;
+   height: 200px;
+} */
+
+img:hover{
+  height: 200px;
+  background-color: yellow;
+   transition: background-color .5s;
+}
+
+/* ID SELECTORS takes precedence on TAG SELECTORS because it is more specific ************************* */
+/* CLASS SELECTORS also takes precedence on TAG SELECTORS because it is also more specific but less than ID SELECTORS ***********  */
+/* ID SELECTORS is unique */
+/* CLASS SELECTORS is non unique */
+/* You can't  make more than one ID in one line, but can make in CLASS.*/
+/* you can use hover properties like who:hover.
+
+
+/* ******************* CLASS SELECTORS  ***************************** */
+.bacon{
+  background-color: green;
+}
+.puppy{
+  background-color: red;
+}
+.circular{
+  border-radius:  100%;
+}
+
+/* ************************ ID SELECTORS ****************************** */
+#heading{
+  color: blue;
+}
